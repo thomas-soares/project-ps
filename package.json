@@ -1,12 +1,14 @@
 {
-  "name": "ps",
+  "name": "project-ps",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "validate:typecheck": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
     "next": "15.5.4",
@@ -23,7 +25,7 @@
     "eslint-config-next": "15.5.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
-    "lefthook": "^1.13.6",
+    "lefthook": "^1.13.4",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
