@@ -1,6 +1,4 @@
-type AppointmentCardProps = { appointment: null };
-
-export const AppointmentCard = ({ appointment }: AppointmentCardProps) => {
+export const AppointmentCard = () => {
   return (
     <div>
       <h2>Appointment Card</h2>
