@@ -3,5 +3,10 @@ type PeriodSectionProps = {
 };
 
 export const PeriodSection = ({ period }: PeriodSectionProps) => {
-  return <section>{period}</section>;
+  return (
+    <section>
+      <h2>periodo selecionado</h2>
+      {period}
+    </section>
+  );
 };
