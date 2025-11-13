@@ -5,6 +5,7 @@ export const AppointmentForm = () => {
       <h2>Manhã</h2>
       <h2>Tarde</h2>
       <div className="text-left">Horário</div>
+      <div className="text-left">Paciente</div>
     </>
   );
 };
